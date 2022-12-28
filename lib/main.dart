@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-import 'GNav/gnav.dart';
+import 'Curved Nav Bar/curved_nav_bar.dart';
 
 void main() {
   runApp(MyApp());
@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'BottomNavigationBar',
-      home: Example(),
+      home: MyHomePage1(),
     );
   }
 }
