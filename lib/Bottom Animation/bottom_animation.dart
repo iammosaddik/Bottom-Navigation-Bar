@@ -53,7 +53,7 @@ class _BottomAnimationBarState extends State<BottomAnimationBar> {
   Widget build(BuildContext context) {
     return MaterialApp(
       theme: ThemeData(
-        primarySwatch: Colors.indigo,
+        // primarySwatch: Colors.indigo,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
       home: Scaffold(
@@ -63,9 +63,9 @@ class _BottomAnimationBarState extends State<BottomAnimationBar> {
           items: items,
           backgroundColor: Colors.blueAccent,
           onItemSelect: _onItemTapped,
-          itemHoverColor: Color(0xfff5dd90),
+          itemHoverColor: Color(0xff000000),
           itemHoverColorOpacity: .5,
-          activeIconColor: Colors.white,
+          activeIconColor: Colors.red,
           deActiveIconColor: Colors.white,
           barRadius: 30,
           textStyle: const TextStyle(
